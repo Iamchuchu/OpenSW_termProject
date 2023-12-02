@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # read image
-img = cv2.imread("./image/puppies.jpg") # 사진 제대로 넣기
+img = cv2.imread("./part 2/image.png") # 사진 제대로 넣기
 img = cv2.resize(img, (1024, 600)) # reduce some size, also outline of rectangle look more clear. no need to modity the number in cv2.rectangle
 height, width, channel = img.shape
 
@@ -75,7 +75,7 @@ for i in range(len(boxes)):
         x, y, w, h = boxes[i]
         label = str(classes[class_ids[i]])
         print(f'class {label} detected at {x}, {y}, {w}, {h}')
-        if (label == 'Person'):
+        if (label == 'person'):
             color = color1
             cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
             cv2.putText(img, label, (x, y - 10), font, 1, color, 2)
