@@ -2,7 +2,7 @@
 
 The code is a program that reads images from a webcam or video file, detects and visually displays emotions around your face by detecting faces and objects. The code is written in Python's language, using different libraries and modules.
 
-김단아, 김예서, and 노현웅 are in charge of code production, and 추성윤 manages GitHub
+김단아, 김예서, and 노동훈 are in charge of code production, and 추성윤 manages GitHub
 
 ---
 
