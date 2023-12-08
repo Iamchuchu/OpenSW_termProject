@@ -62,9 +62,16 @@ Releases the video capture object and closes all windows when the loop is exited
 #### Note
 The code assumes the existence of certain utility functions and model files (like Haar Cascade file, emotion model file, etc.) that are not provided in the code snippet. Ensure that these dependencies are satisfied for the code to run successfully.
 
-## Requirements: (with versions i tested on)
-1. Python 3.11.5
-2. opencv 4.8.1
-3. numpy 1.26.2
+## Requirements
+1. Python
+2. opencv-python
+3. keras
+4. tensorflow
+5. numpy
+6. scipy
+7. pillow
+8. pandas
+9. matplotlib
+10. h5py
 
 ## Result
