@@ -25,18 +25,18 @@ Each of these five emotions has a different color, so each emotion can be more c
 #### Note
 The code assumes the existence of certain utility functions and model files (like Haar Cascade file, emotion model file, etc.) that are not provided in the code snippet. Ensure that these dependencies are satisfied for the code to run successfully.
 
-## Requirements
-- cv2
-- tensorflow
-- scipy
-- opencv-python
-- keras
-- cvlib
-- numpy
-- pillow
-- pandas
-- matplotlib
-- h5py
+## Requirements: (with version i used)
+- cv2 (4.8.1)
+- tensorflow (2.15.0)
+- scipy (1.11.4)
+- opencv-python (4.8.1.78)
+- keras (2.15.0)
+- cvlib (0.2.7)
+- numpy (1.26.2)
+- pillow (10.1.0)
+- pandas (2.1.3)
+- matplotlib (3.8.2)
+- h5py (3.10.0)
   - Models and Datasets Related Packages
     - emotion_model.hdf5
     - haarcascade_frontalface_default.xml
