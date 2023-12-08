@@ -1,8 +1,8 @@
-# Emotion detection with OpenCV
+![image](https://github.com/Iamchuchu/OpenSW_termProject/assets/144139251/c9762b8c-bf4f-4d79-868e-4f83dca2a0e9)# Emotion detection with OpenCV
 
 The code is a program that reads images from a webcam or video file, detects and visually displays emotions around your face by detecting faces and objects. The code is written in Python's language, using different libraries and modules.
 
-김단아, 김예서, and 노동훈 are in charge of code production, and 추성윤 manages GitHub
+Dana Kim, YeSeo Kim, and DongHoon No are in charge of code production, and SeongYun Chu manages GitHub
 
 ---
 
