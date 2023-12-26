@@ -48,15 +48,31 @@ The code assumes the existence of certain utility functions and model files (lik
   
 <https://bskyvision.com/entry/%EC%9B%B9%EC%BA%A0-%EC%98%81%EC%83%81-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%AC%BC%EC%B2%B4-%EA%B2%80%EC%B6%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC>
 
-You can download the Models and Datasets Related Packages you need here
+You can download the Models and Datasets Related Packages you need here  
+  
+## Command to run  
+    python real_final_code.py --image part 2/girl.jpg --width 0.955  
+Before running this code, make sure that the file path, the package required, and the name of the image file are correct.  
+If the above environment is not properly established, **it will not be implemented**.  
+There is no problem even if you download the py file and run it on your IDE unless you've contracted the right coding environment.  
+
+## Result  
 
 
+![image](https://github.com/Iamchuchu/OpenSW_termProject/assets/144139251/d3871bf2-db74-4eac-b9c4-27aca4a3ff74)  
+  
+![image](https://github.com/Iamchuchu/OpenSW_termProject/assets/144139251/dbaad9cb-6bc0-4a78-9001-d8700e867581)  
+  
+![image](https://github.com/Iamchuchu/OpenSW_termProject/assets/144139251/7cd0660b-62c4-44d4-ab7f-f8b40d3ecae2)  
 
-## Result
-
+  
+## The Limitation  
+1. Due to the limitations of the database, only objects belonging to the data content can be recognized.  
+  
+2. The command of the code is drawn square with recognized subject attention, and if too many objects are recognized in one picture, it may be difficult for the user to grasp the given information.  
 
 ## Reference
-
-<https://github.com/petercunha/Emotion/tree/master>  
+Code Reference  
+<https://github.com/petercunha/Emotion/tree/master>   
   
-<https://bskyvision.com/entry/%EC%9B%B9%EC%BA%A0-%EC%98%81%EC%83%81-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%AC%BC%EC%B2%B4-%EA%B2%80%EC%B6%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC>
+<https://bskyvision.com/entry/%EC%9B%B9%EC%BA%A0-%EC%98%81%EC%83%81-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%AC%BC%EC%B2%B4-%EA%B2%80%EC%B6%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC>  
