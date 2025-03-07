@@ -1,6 +1,7 @@
 # Emotion Detection with OpenCV
 
-The code is a program that reads images from a webcam or video file, detects and visually displays emotions around your face by detecting faces and objects. The code is written in Python's language, using different libraries and modules.
+This code is a program that reads images from a webcam or video file, detects and visually displays emotions around your face by detecting faces and objects.   
+The code is written in Python's language, using different libraries and modules.
 
 Dana Kim, YeSeo Kim, and DongHoon No are in charge of code production, and SeongYun Chu manages GitHub
 
